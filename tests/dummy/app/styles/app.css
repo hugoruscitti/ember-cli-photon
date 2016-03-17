@@ -1,0 +1,30 @@
+pre {
+  border: 1px solid #ccc;
+  padding: 5px;
+}
+
+body {
+  padding: 2em;
+}
+
+h1 {
+  margin: 0;
+}
+
+
+.row {
+  position: relative;
+  border: 1px solid gray;
+}
+
+.left {
+  position:absolute;
+  left: 0;
+  width: 50%;
+}
+
+.right {
+  position: absolute;
+  left: 50%;
+  width: 50%;
+}
