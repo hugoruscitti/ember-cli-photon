@@ -7,6 +7,11 @@ module.exports = function(defaults) {
     // Add options here
   });
 
+  app.import("bower_components/photon/dist/css/photon.css");
+  app.import("bower_components/photon/dist/fonts/photon-entypo.woff", {
+    destDir: "fonts"
+  });
+  
   /*
     This build file specifies the options for the dummy test app of this
     addon, located in `/tests/dummy`
