@@ -1,7 +1,7 @@
 # Ember-cli-photon
 
 
-[DEMO SITE](https://github.com/hugoruscitti/ember-cli-photon)
+[DEMO SITE](http://hugoruscitti.github.io/ember-cli-photon/)
 
 
 Add photon css framework to your ember-electron apps !!!
