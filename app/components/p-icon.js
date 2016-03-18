@@ -1,0 +1,1 @@
+export { default } from 'ember-cli-photon/components/p-icon';

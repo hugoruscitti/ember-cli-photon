@@ -1,6 +1,9 @@
 pre {
   border: 1px solid #ccc;
   padding: 5px;
+  margin:0;
+  margin-right: 10px;
+  background-color: white;
 }
 
 body {
@@ -14,17 +17,25 @@ h1 {
 
 .row {
   position: relative;
-  border: 1px solid gray;
+  overflow: hidden;
+  background-color: #eee;
+  padding: 10px;
 }
 
-.left {
-  position:absolute;
-  left: 0;
+.row .left {
+  position: relative;
+  float: left;
   width: 50%;
 }
 
-.right {
-  position: absolute;
-  left: 50%;
+.row .right {
+  position: relative;
+  float: right;
   width: 50%;
+  background-color: white;
+  box-shadow: 0px 0px 9px rgba(0, 0, 0, 0.2);
+}
+
+.padding {
+  padding: 5px;
 }
