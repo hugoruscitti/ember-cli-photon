@@ -30,7 +30,7 @@ test:
 
 deploy:
 	$(all task, "Building to gh-pages branch.")
-	@npm run deploy
+	@ember deploy production
 	$(call log, "Done, check https://github.com/hugoruscitti/ember-cli-photon.")
 
 .PHONY: tmp
