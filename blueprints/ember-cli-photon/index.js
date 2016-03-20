@@ -1,9 +1,6 @@
 module.exports = {
   name: 'ember-cli-photon',
-  normalizeEntityName: function() {},
-
-  blueprintsPath: function() {
-    return path.join(__dirname, 'blueprints');
+  normalizeEntityName: function() {
   },
 
   afterInstall: function() {

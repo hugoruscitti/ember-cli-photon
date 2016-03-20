@@ -43,6 +43,19 @@ etc...</pre>
   </div>
 </div>
 
+<h4>All icons name</h4>
+
+<div>
+  {{input value=filter placeholder="filter"}}
+  <button {{action "clearFilter"}}>clear</button>
+</div>
+
+{{#each filteredIcons as |iconName|}}
+  <p class="icon-container">{{p-icon icon=iconName}} <span class="gray">{{iconName}}</span></p>
+{{else}}
+  <p>There's no icons to show :(</p>
+{{/each}}
+
 <h4>Others</h4>
 
 We are creating some new components, but in the meantime you use
