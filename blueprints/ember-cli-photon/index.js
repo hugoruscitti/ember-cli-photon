@@ -1,5 +1,6 @@
 module.exports = {
   name: 'ember-cli-photon',
+  normalizeEntityName: function() {},
 
   included: function(app) {
     this._super.included(app);
